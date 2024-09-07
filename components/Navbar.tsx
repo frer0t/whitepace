@@ -9,7 +9,7 @@ type Links = string[];
 
 const Navbar = () => {
  return (
-  <nav className="fixed top-0 w-screen py-4 px-4 md:px-8 2xl:px-[220px] flex items-center justify-between z-10 bg-darkblue ">
+  <nav className="fixed top-0 w-full py-4 px-4 md:px-8 2xl:px-[220px] flex items-center justify-between z-10 bg-darkblue ">
    <Image src={logo} alt="whitepace logo" className="w-[134px] md:w-[234px]" />
    <ul className="hidden lg:flex flex-row gap-x-8 ">
     <ListNavLinks Links={['Products', 'Solutions', 'Resources', 'Pricing']} />
