@@ -1,18 +1,18 @@
 import Image from 'next/image';
 import Circular from '../assets/circular.svg';
-import vector from '../assets/vector.png';
+import vectorline from '../assets/vector.png';
 import rightArrow from '../assets/right arrow icon.svg';
 import image2 from '../assets/2nd img.png';
 const About = () => {
  return (
-  <section className="relative px-[16px] py-[80px] md:px-[20px] md:py-[100px] lg:px-[32px] lg:py-[140px] xl:px-[32px] xl:py-[100px] 2xl:px-[220px] 2xl:py-[140px] flex flex-col lg:flex-row gap-y-3 justify-center items-center">
+  <section className="relative px-[16px] py-[80px] md:px-[20px] md:py-[100px] lg:px-[32px] lg:py-[140px] xl:py-[100px] 2xl:px-[220px] 2xl:py-[140px] flex flex-col lg:flex-row gap-y-3 justify-center items-center">
    <div className="lg:max-w-[528px] flex flex-col items-center lg:items-start  gap-y-6">
-    <div className="relative h-fit w-fite lg:max-w-[460px]">
-     <h1 className="relative leading-[40px] text-[36px] text-center lg:text-start md:text-[54px] lg:text-[64px] xl:text-[72px] md:leading-[70px] font-bold">
+    <div className="relative h-fit w-fit lg:max-w-[460px]">
+     <h1 className="leading-[40px] text-[36px] text-center lg:text-start md:text-[54px] lg:text-[64px] xl:text-[72px] md:leading-[70px] font-bold">
       Project Management
      </h1>
      <Image
-      src={vector}
+      src={vectorline}
       alt="Vector line"
       className="absolute -bottom-5 md:-bottom-4 md:w-[60%] right-0 lg:right-22 -z-20 "
      />
