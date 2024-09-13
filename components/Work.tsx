@@ -1,6 +1,7 @@
 import worktogetherimage from '../assets/worktogetherimage.svg';
 import vectorline from '../assets/vector.png';
 import Image from 'next/image';
+import rightArrow from '../assets/right arrow icon.svg';
 
 const Work = () => {
  return (
@@ -10,7 +11,7 @@ const Work = () => {
     alt="worktogether image"
     className="w-[17.5rem] h-[16.3rem] md:w-[454px] md:h-[422px] lg:w-[528px] lg:h-[490px] xl:w-[583px] xl:h-[542px] 2xl:w-[710px] 2xl:h-[661px]"
    />
-   <div className="flex flex-col items-center lg:items-start">
+   <div className="flex flex-col items-center lg:items-start gap-5">
     <div className="relative w-fit h-fit">
      <h1 className="text-[2.25rem] text-center lg:text-start md:text-[3.38rem] lg:text-[4rem] xl:text-[4.63rem] md:leading-[4rem] font-bold">
       Work together
@@ -26,6 +27,10 @@ const Work = () => {
      them. You can also publish a note to the internet and share the URL with
      others.
     </p>
+    <button className="flex items-center justify-center text-[18px] text-white bg-blue rounded-lg px-[20px] py-[10px]">
+     Try it now
+     <Image src={rightArrow} alt="right arrow icon" className="max-w-[34px]" />
+    </button>
    </div>
   </section>
  );

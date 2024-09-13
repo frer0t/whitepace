@@ -22,7 +22,7 @@ const About = () => {
      and diagrams directly from the app. Take photos with the mobile app and
      save them to a note.
     </p>
-    <button className="flex items-center justify-center text-[18px] text-white bg-blue rounded-lg px-[40px] py-[20px]">
+    <button className="flex items-center justify-center text-[18px] text-white bg-blue rounded-lg px-[20px] py-[10px]">
      Get Started
      <Image src={rightArrow} alt="right arrow icon" className="max-w-[34px]" />
     </button>
