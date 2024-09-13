@@ -21,7 +21,7 @@ const UseExtension = () => {
      pages or take screenshots as notes.
     </p>
     <button className="flex items-center justify-center text-[18px] text-white bg-blue rounded-lg px-[20px] py-[10px]">
-     Let's go
+     Let&apos;s go
      <Image src={rightArrow} alt="right arrow icon" className="max-w-[34px]" />
     </button>
    </div>
