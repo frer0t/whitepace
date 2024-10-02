@@ -16,7 +16,7 @@ const Hero = () => {
      Project management software that enables your teams to collaborate, plan,
      analyze and manage everyday tasks
     </p>
-    <button className="flex items-center justify-center text-[12px] sm:text-[18px] text-white bg-blue rounded-lg px-[30px] py-[15px] lg:px-[20px] lg:py-[10px]">
+    <button className="flex items-center justify-center text-[0.9rem] sm:text-[18px] text-white bg-blue rounded-lg px-[20px] py-[10px] lg:px-[20px] lg:py-[10px]">
      Try Whitepace free
      <Image src={rightArrow} alt="right arrow icon" className="max-w-[34px]" />
     </button>
@@ -25,7 +25,7 @@ const Hero = () => {
     src={img1}
     alt="toon image"
     priority={true}
-    className="md:min-w-[550px] lg:min-w-[600px] xl:min-w-[800px] 2xl:min-w-[1000px] rounded-lg"
+    className="md:min-w-[550px] lg:min-w-[600px] xl:min-w-[800px] 2xl:max-w-[1000px] rounded-lg"
    />
   </section>
  );
